@@ -1,0 +1,16 @@
+; dlltool --base-file C:\Users\Acer\AppData\Local\Temp\cca01936.base --output-exp Piano_RemoteDLL.exp --dllname Piano_RemoteDLL.dll --output-def libPiano_RemoteDLL.def --exclude-symbol=DllMainCRTStartup@12 --def C:\Users\Acer\AppData\Local\Temp\cca01936.def --output-lib libPiano_RemoteDLL.a
+EXPORTS
+;	DllClass::DllClass()
+	_ZN8DllClassC2Ev @ 1
+;	DllClass::~DllClass()
+	_ZN8DllClassD0Ev @ 2
+;	DllClass::~DllClass()
+	_ZN8DllClassD1Ev @ 3
+;	DllClass::~DllClass()
+	_ZN8DllClassD2Ev @ 4
+;	typeinfo for DllClass
+	_ZTI8DllClass @ 5 DATA
+;	vtable for DllClass
+	_ZTV8DllClass @ 6 DATA
+;	DllClass::DllClass()
+	_ZN8DllClassC1Ev @ 7
